@@ -1,6 +1,4 @@
-use std::fmt::{Debug, format};
-
-use hex::{decode, encode};
+use std::fmt::{Debug};
 
 pub fn decode_hex(hex_str: &str) -> Result<Vec<u8>, String> {
     // TODO: Decode hex string into Vec<u8>, return error string on failure
